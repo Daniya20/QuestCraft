@@ -1,68 +1,43 @@
-# Sirtibot
-Automatic Question Paper Generator
-need python version == Python 3.8.6
-
-In today’s educational landscape, the demand for efficient and streamlined processes has grown exponentially. One such critical task is the generation of question papers, which requires careful consideration of various factors like question bank management, subject distribution, difficulty levels, and formatting. To address this challenge, we have developed an automated Question Paper Generator using Django Python. 
-
-Introducing Sirtibot: Revolutionizing Question Paper Generation
-In the fast-paced world of education, where instructors strive to provide high quality assessments and enriching learning experiences, a cutting-edge tool emerges to simplify a critical task – the creation of question papers. 
-Welcome to Sirtibot, your indispensable partner in crafting thoughtful, diverse, and impeccably balanced question papers.
-
-To run the file user should run the folling pip commands in the command prompt : 
+#QuestCraft: Automatic Question Paper Generator
+In the dynamic realm of education, where educators strive to deliver top-notch assessments and enriching learning encounters, an innovative solution emerges to streamline a crucial process – the generation of question papers.
+Welcome QuestCraft, your ultimate ally in crafting insightful, varied, and meticulously structured question papers.
+System Requirements:
+To ensure optimal performance of the QuestCraft application, please ensure that your system meets the following minimum requirements:
+Operating System: Windows 10, macOS, or Linux (Ubuntu recommended)
+Processor: Intel Core i5 or equivalent
+RAM: 8GB or higher
+Storage: 100MB of available disk space for installation
+Python Version: Python 3.8.6 or later
+Please note that while the application may run on systems that do not meet these specifications, performance may be suboptimal, and certain features may not function as intended.
+Executing the application:
+To run the application, users are required to execute the following pip commands in the command prompt:
 ```
 pip install django
 pip install nltk
 pip install transformers
-pip install openai
 pip install flashtext
 pip install Pywsd
 pip install summarizer
 pip install fpdf
-pip install openpyxl
+pip install openpyxl
 python -m spacy download en
 pip install git+https://github.com/boudinfl/pke.git
 pip install torch
 pip install bert-extractive-summarizer
 ```
-MCQ Generation Logic: The logic for preprocessing text, extracting keywords, generating summaries, and generating MCQs from the processed text. It follows the pattern of uploading a text file, reading its content, and then performing the required processing steps.
-
-Question : openai, Api is used in it.
-
-After all the pip are installed last step :
-
-Go to the folder where the manage.py file is seen usualy on the first page and open cmd their then run 
+MCQ Generation Procedure: The procedure encompasses preprocessing text, extracting pivotal keywords, generating concise summaries, and crafting multiple-choice questions from the processed text. It adheres to the protocol of uploading a text file, extracting its contents, and executing the necessary processing steps.
+Once all the necessary dependencies are installed, the final step involves navigating to the directory where the manage.py file is located, typically on the initial page, and opening the command prompt there. Subsequently, execute the following command:
 ```
 py manage.py runserver
 ```
-
-It will take some time for nltk to download and pwd so be patient.
-
-
-(Optional)if want virtual Environment :
-  ```
-  py -m venv venv
-  ```
-  The name of the virtual environment is your choice my name is venv
-  
-  
-  Then we have to activate it by the command:
-  ```
-  venv\Scripts\activate
-  ```
-  to run the file run all the ** pip commands ** in the virtual Environment 
-  done then manage.py command and set to go.
-
-
-Change the api to get the question to be generated, dashboard/view.py line 385 and setting line 41
-https://github.com/Masontysom/sirtibot/blob/297df97261c52a3540a0ffdc3682af0fee3da7cb/dashboard/views.py#L384
-https://github.com/Masontysom/sirtibot/blob/297df97261c52a3540a0ffdc3682af0fee3da7cb/sertibot/settings.py#L41
-
-(error)
-
-
-
-if any error in data base :
-```
-python manage.py migrate
-```
-
+Please note that it may take some time for nltk to download and pwd, so your patience is appreciated.
+Feedback Mechanism:
+We value your feedback and strive to continuously improve the QuestCraft application. If you encounter any issues, have suggestions for new features, or would like to share your experience using the application, please don't hesitate to get in touch with us.
+You can provide feedback through the following channels:
+Email: questcraftbot@gmail.com
+Feedback Form: https://forms.gle/2B8okmtdJZPMRPL99
+Your feedback is invaluable to us, and we appreciate you taking the time to share your thoughts and suggestions.
+Support and Queries:
+If you have any queries or require assistance with installing or using the QuestCraft application, please feel free to reach out to us via email at questcraftbot@gmail.com. 
+Our support team is dedicated to assisting you and ensuring that you have a seamless experience with the application. We strive to respond to all queries and support requests promptly, so please don't hesitate to contact us if you need any help or assistance.
+Thank you for choosing QuestCraft, and we look forward to hearing from you!
