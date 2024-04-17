@@ -1,6 +1,8 @@
-#QuestCraft: Automatic Question Paper Generator
+QuestCraft: Automatic Question Paper Generator
 In the dynamic realm of education, where educators strive to deliver top-notch assessments and enriching learning encounters, an innovative solution emerges to streamline a crucial process – the generation of question papers.
+
 Welcome QuestCraft, your ultimate ally in crafting insightful, varied, and meticulously structured question papers.
+
 System Requirements:
 To ensure optimal performance of the QuestCraft application, please ensure that your system meets the following minimum requirements:
 Operating System: Windows 10, macOS, or Linux (Ubuntu recommended)
@@ -31,13 +33,16 @@ Once all the necessary dependencies are installed, the final step involves navig
 py manage.py runserver
 ```
 Please note that it may take some time for nltk to download and pwd, so your patience is appreciated.
-Feedback Mechanism:
-We value your feedback and strive to continuously improve the QuestCraft application. If you encounter any issues, have suggestions for new features, or would like to share your experience using the application, please don't hesitate to get in touch with us.
+
+Feedback Mechanism:We value your feedback and strive to continuously improve the QuestCraft application. If you encounter any issues, have suggestions for new features, or would like to share your experience using the application, please don't hesitate to get in touch with us.
+
 You can provide feedback through the following channels:
 Email: questcraftbot@gmail.com
 Feedback Form: https://forms.gle/2B8okmtdJZPMRPL99
+
 Your feedback is invaluable to us, and we appreciate you taking the time to share your thoughts and suggestions.
-Support and Queries:
-If you have any queries or require assistance with installing or using the QuestCraft application, please feel free to reach out to us via email at questcraftbot@gmail.com. 
+
+Support and Queries: If you have any queries or require assistance with installing or using the QuestCraft application, please feel free to reach out to us via email at questcraftbot@gmail.com. 
 Our support team is dedicated to assisting you and ensuring that you have a seamless experience with the application. We strive to respond to all queries and support requests promptly, so please don't hesitate to contact us if you need any help or assistance.
+
 Thank you for choosing QuestCraft, and we look forward to hearing from you!
